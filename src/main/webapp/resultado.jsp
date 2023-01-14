@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Resultado</title>
+
 </head>
 <body>
 

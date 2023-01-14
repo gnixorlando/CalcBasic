@@ -3,18 +3,23 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Calc JSP</title>
+<link rel ="stylesheet" href ="resources/css/style.css">
 </head>
+
 <body>
-	<form action="resultado.jsp" method="get">
-		<label> Valor A: </label> <input type="text" name="valorA"> <br>
-		<label> Valor B: </label> <input type="text" name="valorB"><br>
-		<select name="opcao"><br>
-			<option value="+">(+)</option>
-			<option value="-">(-)</option>
-			<option value="*">(*)</option>
-			<option value="/">(/)</option>
-			<option value="²">(²)</option>
-		</select> <input type="submit" value="Calcular">
-	</form>
+	
+	<div>
+		<form action="resultado.jsp" method="get">
+			<label> Valor A: </label> <input type="text" name="valorA"> <br>
+			<label> Valor B: </label> <input type="text" name="valorB"><br>
+			<select name="opcao"><br>
+				<option value="+">(+)</option>
+				<option value="-">(-)</option>
+				<option value="*">(*)</option>
+				<option value="/">(/)</option>
+				
+			</select> <input type="submit" value="Calcular">
+		</form>
+	</div>
 </body>
 </html>
